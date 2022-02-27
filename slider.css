@@ -4,7 +4,7 @@
   height: 400px;
   overflow: hidden;
   border: 5px solid #fff;
-  background: yellow;
+  background: #fff;
 }
 #slideshow img {
   position: absolute;
