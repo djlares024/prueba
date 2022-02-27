@@ -123,10 +123,11 @@ a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 650px;
+  height: 700px;
 }
 
 h1 {
+  background: rgba(255, 255, 255, 0.5);
   font-family: "Montserrat", sans-serif;
   -webkit-box-flex: 3;
   -ms-flex: 3 1 100%;
@@ -141,7 +142,7 @@ h4 {
   -ms-flex: 3 1 100%;
   flex: 3 1 100%;
   font-family: "Roboto", sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 20px;
   margin-top: -210px;
 }
@@ -197,11 +198,13 @@ h4 {
 }
 
 .imagenes {
-  background: #f07b3f;
 }
 
 .sec {
-  background: #ffd460;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-top: 10px;
 }
 
 /* .slide {
@@ -257,21 +260,30 @@ h4 {
 }
 
 .imagen-grande {
-  height: 650px;
+  height: 1000px;
 }
 
 .sec2 {
+  background: rgba(255, 255, 255, 0.5);
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  -webkit-box-flex: 3;
+  -ms-flex: 3 1 100%;
+  flex: 3 1 100%;
+  font-size: 45px;
   color: #000;
-  margin-top: 200px;
+  margin-top: 300px;
+  margin-left: 800px;
 }
 
 .imagen {
+  -webkit-box-flex: 3;
+  -ms-flex: 3 1 100%;
+  flex: 3 1 100%;
   font-family: "Roboto", sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 20px;
-  margin-top: -30px;
+  margin-top: 15px;
+  margin-left: 800px;
 }
 
 .section3 {
@@ -285,6 +297,7 @@ h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  height: 1200px;
 }
 
 .contenido-tabla {
@@ -303,7 +316,10 @@ h4 {
 .tabla {
   width: 1300px;
   height: 900px;
-  background: #ffd460;
+  background: #fff;
+  margin-top: -50px;
+  margin: 0px;
+  padding: 0px 0px;
 }
 
 .section4 {
@@ -318,17 +334,26 @@ h4 {
 }
 
 .sec4 {
+  background: rgba(255, 255, 255, 0.5);
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  -webkit-box-flex: 3;
+  -ms-flex: 3 1 100%;
+  flex: 3 1 100%;
+  font-size: 45px;
   color: #000;
   margin-top: 200px;
+  margin-left: 800px;
 }
 
 .imagen2 {
+  -webkit-box-flex: 3;
+  -ms-flex: 3 1 100%;
+  flex: 3 1 100%;
   font-family: "Roboto", sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 20px;
-  margin-top: -30px;
+  margin-top: 15px;
+  margin-left: 800px;
 }
 
 .imagen2 p {
@@ -420,8 +445,9 @@ h4 {
 .article2 {
   background: #442c2c;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20%;
-  flex: 1 1 20%;
+  -ms-flex: 1 1 10%;
+  flex: 1 1 10%;
+  margin: 5px;
 }
 
 .section8 {
@@ -514,3 +540,4 @@ h4 {
   }
 }
 /*# sourceMappingURL=estilos copy.css.map */
+
